@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(/src/Components/Imgs/rose.capa.jfif);
+}
+#root{
+  padding: 10px;
+  min-height: 100vh;
+  background-image: url(/src/Components/Imgs/rose.capa.jfif);
+  background-position: center;
+}
+
+.sideBar{
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 25px;
+  height: 4em;
+  display: grid;
+  background-color:#eb76c6;
+  grid-template-columns: 8fr 2fr 2fr 2fr 2fr;
+  padding-left: 40px;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid white;
+}
+.Titulo-container{
+  position: absolute;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  top: 115px;
+  left: 25em;
+  
+}
+.Titulo-container h1{
+  font-size: 5em;
+  font-family: 'Sacramento', cursive;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  color: #BD2D90;
+}
+.Titulo-container p{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: #3D0F2E;
+}
+a{
+  
+  display:flex;
+  width:5em;
+  height:30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.carrocel-container{
+  position: relative;
+  display: flex;
+  left: 22em;
+  top: 10px;
+  width: 73%;
+  height: 150px;
+  overflow-x: hidden;
+  border-radius: 2px;
+  background-color:#7A3D74;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 5px;
+}
+h2{
+  display: inline-block;
+  margin-bottom: 5px;
+  position: relative;
+  right: 78px;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 100;
+  color: white;
+  
+  
+
+}
+.carrocel-container img{
+  position: relative;
+  width: 220px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 10px;
+  left: -80px;
+  filter: opacity(.6);
+
+  
+}
+.Formulario-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: fit-content;
+  width: 200px;
+  text-align: start;
+  top: 240px;
+  left: 100px;
+  padding: 10px;
+  border-right: 1px solid rgb(230, 98, 201);
+}
+.Formulario-container h1{
+  color: #7A1D5D;
+}
+.Formulario-container input{
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  
+}
+.Formulario-container label{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #7A1D5D;
+  
+}
+
+.btn_submit{
+  width: 100%;
+  border: none;
+  background-color:#56FA2D;
+  font-family: 'Nunito', sans-serif;
+  color: #FA2DCE;
+  font-size: larger;
+  border-radius:5px ;
+  cursor: pointer;
+}
+.container-picture{
+  position: relative;
+  display: flex;
+  width: 57em;
+  height: 120px;
+  padding: 5px;
+  left:358px;
+  background-color: #eb76c69d;
+  border-radius: 5px;
+}
+
+.container-picture img{
+  width: 65px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #AD0088;
+}
+.Arranjo-container{
+  width: 200px;
+  border: 2px solid black;
+}
